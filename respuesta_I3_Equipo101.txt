@@ -1,0 +1,25 @@
+ALFA: Careri Facundo.
+BETA: Orce Patricio.
+GAMMA: Sibikousky Ian.
+
+
+Respuestas:
+a)Al hacer el merge, el branch master termino con todos los datos
+b)Si, todos tenemos acceso ya que somos contribuidores
+c)Tuvimos un problema porque creamos el branch desde la pagina entonces al querer hacer el merge nos tiro error porque existian 2 archivos con el mismo nombre
+Entonces tuvimos que hacer:
+1-git branch -d Sibikousky
+2-git branch Sibikousky(al hacerlo desde el branch main nos copio el datos.txt, cargamos todos los archivos generados anteriormente)
+3-git add .
+4-git commit -m""
+5-git push
+6-git push --set-upstream origin Sibikousky(al tirarnos error el git push ejecutamos este comando)
+7-git checkout main 
+8-git merge orce
+
+G-Pasos:
+1-git pull
+2-Modifique beta.txt agregando los datos pedidos
+3-git status
+4-git add.
+5-git push
