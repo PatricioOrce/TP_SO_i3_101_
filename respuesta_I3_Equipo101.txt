@@ -23,3 +23,15 @@ G-Pasos:
 3-git status
 4-git add.
 5-git push
+
+d)Las ramas creadas por Gamma y Beta quedan con los datos actualizados
+
+e)Cuando hicimos el merge tuvimos problemas con el archivo datos.txt porque estaba duplicado en los dos branch
+
+f)Para poder hacer el punto 7 tuvimos que usar los siguientes comandos:
+Git checkout Orce (nombre del branch donde esta beta.txt)
+Git pull 
+Modifique el archivo beta.txt
+Git add .
+Git commit -m “”
+Git push
